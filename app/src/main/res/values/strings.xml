@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">無限二維條碼取餐APP</string>
+    <string name="add">新增訂單</string>
+    <string name="view">查看訂單</string>
+    <string name="rescan">重新掃描</string>
+    <string name="channel_name">頻道</string>
+    <string name="channel_description">頻道說明</string>
+    <string name="use_bubble_btn">使用小泡泡作為背景通知</string>
+    <string name="close_v">關閉通知震動</string>
+</resources>
