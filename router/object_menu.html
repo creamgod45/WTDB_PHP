@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-lg navbar-dark nav_bar">
+    <img style="border-radius: 5px;" class="mr-3" height="32px" width="32px" src="./assets/images/logo.png" alt="32x32">
+    <a class="navbar-brand value" href="">{廠商名稱}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-home"></i>&nbsp;首頁</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-v"></i>&nbsp;功能操作</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item test" href="/vendor""><i class=" fas fa-store"></i>&nbsp;店家代號：{店家代號}</a>
+                    <a class="dropdown-item" href="/vendor/order"><i class="fas fa-tasks"></i>&nbsp;管理訂單</a>
+                    <a class="dropdown-item" href="/vendor/item"><i class="fas fa-tasks"></i>&nbsp;管理商品</a>
+                    <a class="dropdown-item" href="/vendor/changepassword"><i class="fas fa-edit"></i>&nbsp;修改密碼</a>
+                    <a class="dropdown-item" href="/vendor/log"><i class="fas fa-history"></i>&nbsp;操作紀錄</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/vendor/logout"><i class="fas fa-sign-out-alt"></i>&nbsp;登出系統</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- <div id="debuger_background" style="position:fixed; top: 0px;right: 0px; width: 550px;height: 500px;background: white;z-index: 1;padding: 16px;border:2px solid black;overflow: auto;">
+    <div id="debuger">
+        SESSION<br>
+        <?php 
+            function explode_array($value){
+                $object = "<ul>";
+                foreach ($value as $key => $value) {
+                    $object .= "<li>KEY[".$key."] => ".$value."</li>";
+                }
+                return $object."</ul>";
+            }
+            foreach ($_SESSION as $key => $value) {
+                if(is_array($value)){
+                    echo "<li>KEY[".$key."] => ".explode_array($value)."</li>";
+                }else{
+                    echo "<li>KEY[".$key."] => ".$value."</li>";
+                }
+            }
+        ?>
+    </div>
+    <div>
+        <button type="button" class="btn btn-primary btn-lg btn-block" id="debuger_btn">除錯</button>
+    </div>
+</div> -->
