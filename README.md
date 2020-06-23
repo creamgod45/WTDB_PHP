@@ -1,6 +1,6 @@
 # 無線二維條碼取餐APP
 ### 一、怎麼使用 無線二維條碼取餐APP ?😂
-- 安裝本軟體指定的 [APP 程式](https://appmarket.zeitfrei.xyz/appmarket.v2.2.apk)
+- 安裝本軟體指定的 [APP 程式](https://github.com/creamgod45/WTDB_PHP/releases/tag/ver.2.2.0)
 - 使用XAMPP架設網站系統
 - 請部屬到外部伺服器。
 - 帳號密碼皆為admin
@@ -14,7 +14,7 @@
         - password:(null)
         - database_name:appmarket
     - Android Studio Version : 3.5 ↑'
-- 點擊  ```releases``` 下載最新版本 [v2.2]()
+- 點擊  ```releases``` 下載最新版本 [WTDB_PHP_ver.2.2.0](https://github.com/creamgod45/WTDB_PHP/releases/tag/ver.2.2.0)
 - 安裝必要套件
     ```
     composer install 
